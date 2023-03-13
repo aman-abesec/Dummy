@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <script data-cfasync="false"  type="text/javascript">
+                function adPushupScript(w, d) {
+                  var s = d.createElement('script');
+                  s.src = '//cdn.adpushup.com/44057/adpushup.js';
+                  s.crossOrigin='anonymous';
+                  s.type = 'text/javascript';
+                  s.async = true;
+                  (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+                  w.adpushup = w.adpushup || {que:[]};
+                }
+               
+                function adSenseScript(w, d) {
+                  var s = d.createElement('script');
+                  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8194720559236679';
+                  s.async = true;
+                  s.crossOrigin='anonymous';
+                  (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+                }
+              
+              
+               var probability = Math.random() * 100;
+                if (probability <= 10) {
+                  adPushupScript(window, document);
+                }
+                else {
+                  adSenseScript(window, document);
+                }
+              </script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="796767a3-f4c9-4cfc-ada5-e680dd43a581" class="_ap_apex_ad" max-height="280">
+            <script>
+                var adpushup = window.adpushup = window.adpushup || {};
+                adpushup.que = adpushup.que || [];
+                adpushup.que.push(function() {
+                    adpushup.triggerAd("796767a3-f4c9-4cfc-ada5-e680dd43a581");
+                });
+            </script>
+        </div>
+    </div>
+</body>
+</html>
